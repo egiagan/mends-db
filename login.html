@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script defer type="module" src="login.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-image: url("https://images.pexels.com/photos/5310563/pexels-photo-5310563.jpeg");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .login-container {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6 login-container">
+                <h1 class="text-center">Mends College</h1>
+                <hr>
+                <h2 class="mb-4">Login</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="Password" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block" id="login">Login</button>
+                </form>
+                <hr>
+                <p class="text-center">Or login with:</p>
+                <div class="d-flex justify-content-center">
+                    <button id="google" class="btn btn-danger mr-2">Google</button>
+                   <!-- <button class="btn btn-info">Microsoft</button>-->
+                </div>
+                <hr>
+                <p class="text-center">Don't have an account? <a href="create-account.html">Create One Here here</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

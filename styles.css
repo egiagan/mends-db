@@ -1,0 +1,44 @@
+.carousel-inner{
+ max-height: 600px !important;
+}
+
+.top-nav{
+ display: flex;
+ justify-content: flex-end;
+ background-color: rgb(48, 48, 48);
+ align-items: center;
+ margin: auto;
+ height: 45px;
+}
+
+.top-nav ul{
+ display: flex;
+ justify-content: flex-end;
+ align-items: center;
+ margin: auto;
+ text-transform: uppercase;
+}
+
+.top-nav ul li{
+ list-style: none;
+ padding-left: 5px;
+}
+
+.top-nav ul li a{
+ text-decoration: none;
+ color: white;
+}
+
+.top-nav ul li a:hover{
+ text-decoration: none;
+ color: rgb(206, 206, 206);
+}
+
+
+body, html {
+ height: 100%;
+ margin: 0;
+}
+
+
+

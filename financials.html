@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <script src="financials.js" defer type="module"></script>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Mends College Database</title>
+   <link rel="stylesheet" href="styles.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"></script>
+      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+      <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+   <header style="background-color: rgb(46, 46, 46); color: white; padding: 10px;">
+      <div class="container d-flex justify-content-between align-items-center">
+         <h1>Mends College Db</h1>
+         <button id="logoutButton" class="btn btn-danger">Logout</button>
+      </div>
+   </header>
+
+   <section class="container mt-5">
+      <div class="row">
+         <div class="col-md-6">
+            <h2>Personal Information</h2>
+            <p><strong class="text-primary">Full Name:</strong> <span id="fullName"></span></p>
+
+            <p><strong class="text-primary">National ID Number:</strong> <span id="nationalID"></span></p>
+
+            <p><strong class="text-primary">Email:</strong> <span id="email"></span></p>
+
+            <p><strong class="text-primary">Phone Number:</strong> <span id="phoneNumber"></span></p>
+
+            <p><strong class="text-primary">Courses:</strong> <span id="selectedCourses"></span></p <div
+               class="col-md-6">
+            <h3>Course Costs</h3>
+            <ul id="courseCosts" class="list-group">
+               <li class="list-group-item">Course 1: $1000</li>
+               <li class="list-group-item">Course 2: $1500</li>
+            </ul>
+         </div>
+         <div class="col-md-6">
+            <h3>Payments and Balances</h3>
+            <ul id="paymentsAndBalances" class="list-group">
+               <li class="list-group-item">Course 1 Payment: $500</li>
+               <li class="list-group-item">Course 1 Balance: $500</li>
+               <li class="list-group-item">Course 2 Payment: $1000</li>
+               <li class="list-group-item">Course 2 Balance: $500</li>
+            </ul>
+         </div>
+
+
+      </div>
+   </section>
+
+   <footer>
+      <!-- Include footer content here -->
+   </footer>
+
+   <!-- Include Bootstrap JS scripts here -->
+   <!-- Include Firebase scripts here (if not already done) -->
+   <script>
+    // JavaScript code for fetching and displaying financial information (as shown in previous responses)
+   </script>
+</body>
+
+</html>

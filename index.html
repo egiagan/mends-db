@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <script type="module" src="index.js" defer></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mends College Database</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+
+  <!--top nav-->
+  <div class="top-nav">
+    <ul class="container">
+      <li>
+        <a href="login.html">
+          Login
+        </a>
+      </li>
+      <li>
+        <a href="create-account.html">Register</a>
+      </li>
+    </ul>
+  </div>
+
+  <!--Navigation-->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Mends College DB</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#courses">Cateloque</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link apply">Apply</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Financials</a>
+          </li>
+
+        </ul>
+        <span class="navbar-text">
+          Hi , Welcome to Mends College Db!
+        </span>
+      </div>
+    </div>
+  </nav>
+
+  <!--hero-->
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://images.pexels.com/photos/5553045/pexels-photo-5553045.jpeg?" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://images.pexels.com/photos/159740/library-la-trobe-study-students-159740.jpeg"
+          class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://images.pexels.com/photos/6084489/pexels-photo-6084489.jpeg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+  </div>
+
+  <!--cataloque-->
+  <section class="container mt-5" id="courses">
+    <h1>Course Catalogue</h1>
+    <div class="row">
+      <!-- Repeat the following card structure for each course -->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card d-flex flex-column h-100">
+          <img src="https://images.pexels.com/photos/2760241/pexels-photo-2760241.jpeg?auto=compress&cs=tinysrgb&w=600"
+            class="card-img-top" alt="Course Image">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">FPM SETA</h5>
+            <p class="card-text h-100">
+              Includes:<br>
+              1. National certificate: Forestry , Funiture Making , Clothing , Textile , Footware , Leather
+              Manufacturing
+              Processes<br>
+              <hr>
+              2. General Education and Training Certificate: General Forestry , Clothing Manufacturing Proccesses.
+            </p>
+            <p class="card-text">Cost: R13,050.00</p>
+            <button class="btn btn-primary mt-auto apply">Apply</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Course 1: FPM SETA -->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card h-100 d-flex flex-column">
+          <img src="https://images.pexels.com/photos/955402/pexels-photo-955402.jpeg?auto=compress&cs=tinysrgb&w=600"
+            class="card-img-top" alt="Course Image">
+          <div class="card-body h-100 d-flex flex-column">
+            <h5 class="card-title">Mictseta</h5>
+            <p class="card-text">
+              Includes:<br>
+              1. National certificate: Information Technology ( System Development ) <br>
+              2. Furthur Education And Training: Information Technology ( Technical Support )
+            </p>
+            <p class="card-text">Cost: R13,050.00</p>
+            <button class="btn btn-primary mt-auto apply">Apply</button>
+          </div>
+        </div>
+
+
+      </div>
+
+      <!-- Course 1: FPM SETA -->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card d-flex flex-column h-100">
+          <img
+            src="https://images.pexels.com/photos/6285116/pexels-photo-6285116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            class="card-img-top" alt="Course Image">
+          <div class="card-body d-flex flex-column h-100">
+            <h5 class="card-title">Mictseta</h5>
+            <p class="card-text">
+              Includes:<br>
+              1. National certificate: Business Analysis , Information And Communication Technology , Film and
+              Television
+              Production
+            </p>
+            <p class="card-text">Cost: R20 250,00</p>
+            <button class="btn btn-primary mt-auto apply">Apply</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Course 1: FPM SETA -->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card d-flex flex-column">
+          <img
+            src="https://images.pexels.com/photos/2255801/pexels-photo-2255801.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            class="card-img-top" alt="Course Image">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">AgriSETA</h5>
+            <p class="card-text">
+              Includes:<br>
+              1. National certificate: Animal Production , Farming , Plant Production , HortiCulture
+            </p>
+            <p class="card-text">Cost: R10 650,00</p>
+            <button class="btn btn-primary mt-auto apply">Apply</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <hr>
+
+  <section class="container mt-5 py-1 ">
+    <h2>Contact Us</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <form>
+          <div class="form-group d-flex flex-column">
+            <label for="name">Name:</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea class="form-control" id="message" rows="4" placeholder="Enter your message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary my-1 ">Submit</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-light py-4 my-1">
+    <div class="container text-center">
+      <p>&copy; 2023 Mends Db. All rights reserved.</p>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>

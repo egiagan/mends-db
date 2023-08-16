@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+    <meta charset="UTF-8">
+    <script type="module" src="create-account.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="icon" type="image/x-icon" href="icon.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-image: url("https://images.pexels.com/photos/5310563/pexels-photo-5310563.jpeg");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .register-container {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6 register-container">
+                <h1 class="text-center">Mends College</h1>
+                <hr>
+                <h2 class="mb-4">Create Account</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" class="form-control" id="fullName" placeholder="Enter Full name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Phone Number</label>
+                        <input type="tel" class="form-control" id="phoneNumber" placeholder="Enter phone number" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="Password" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="confirmPassword">Confirm Password</label>
+                        <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm Password" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block" id="register">Register</button>
+                </form>
+                <hr>
+                <p class="text-center">Or register with:</p>
+                <div class="d-flex justify-content-center">
+                    <button id="google" class="btn btn-danger mr-2">Google</button>
+                    <!--
+                    <button id="microsoft" class="btn btn-info">Microsoft</button>-->
+                </div>
+                <hr>
+                <p class="text-center">Already have an account? <a href="login.html">Login here</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<style>
+  .logo-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+</style>
