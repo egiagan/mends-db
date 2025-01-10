@@ -4,13 +4,13 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.1.0/firebas
 import { getDatabase, ref, push, get, update,set } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-database.js";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAMx2WJkdBs5_dj6OENln0m5NJvHBgFLno",
-  authDomain: "test-e6e38.firebaseapp.com",
-  projectId: "test-e6e38",
-  storageBucket: "test-e6e38.appspot.com",
-  messagingSenderId: "122722000519",
-  appId: "1:122722000519:web:1782f493afe455cf33a222",
-  databaseURL: "https://test-e6e38-default-rtdb.asia-southeast1.firebasedatabase.app/",
+  apiKey: "AIzaSyDAlth1sxiP-S3r3fVDXhwadVVnEvpdO6s",
+  authDomain: "login-egi-agan.firebaseapp.com",
+  databaseURL: "https://login-egi-agan-default-rtdb.firebaseio.com",
+  projectId: "login-egi-agan",
+  storageBucket: "login-egi-agan.firebasestorage.app",
+  messagingSenderId: "395059466114",
+  appId: "1:395059466114:web:5c6b0621e9739df6b5c99b"
 };
 
 const app = initializeApp(firebaseConfig);
@@ -58,7 +58,7 @@ apply.forEach(apply => {
 
      
    } else {
-     window.location.href ="./create-account.html"
+     window.location.href ="/p/3create-account.html"
    }
  });
 
